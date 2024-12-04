@@ -1,0 +1,35 @@
+/* General Button Styling */
+button {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Add to Cart Button */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Checkout Button */
+.checkout-btn {
+    background-color: #28a745;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
